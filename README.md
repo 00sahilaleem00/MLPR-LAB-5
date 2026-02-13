@@ -18,9 +18,8 @@ Faces are detected using the `haarcascade_frontalface_default.xml` classifier.
 **Template Prediction**
 The system visualizes the template image relative to the existing clusters. The visual plot below shows the template face (bottom) relative to the faculty faces.
 
-![Template Prediction](PLOT 4.png)
+<img src="PLOT 4.png" alt="Template Prediction" width="500">
+<img src="PLOT 5.png" alt="Final Classification" width="500">
 
 **Conclusion**
 The K-Means algorithm (K=2) successfully separated the dataset into two distinct clusters. The template image (marked in thick green) was classified into Cluster 0 based on Euclidean distance to the centroids.
-
-![Final Classification Plot](PLOT 5.png)
